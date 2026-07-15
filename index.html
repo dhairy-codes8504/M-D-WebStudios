@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M & D WebStudios</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">M & D <span>WebStudios</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-left">
+                    <p class="eyebrow">Creative Digital Agency</p>
+                    <h1>Elevating brands through exceptional digital experiences for measurable growth.</h1>
+                    <p>Modern design, premium experience, and strategic approach for brands that lead.</p>
+                    <a href="#portfolio" class="btn btn-primary btn-lg mr-3 mb-3">View Portfolio</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg mb-3">Let's Talk</a>
+                </div>
+                <div class="col-lg-5 mt-5 mt-lg-0">
+                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80"
+                        alt="Modern workspace" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80"
+                        alt="Team working together" class="about-image">
+                </div>
+                <div class="col-lg-6">
+                    <p class="eyebrow">About Us</p>
+                    <h2>We blend strategy, design, and technology.</h2>
+                    <p>At M & D WebStudios, we create elegant digital experiences that help businesses grow. Our team
+                        combines creativity with clean development to deliver websites that are beautiful, responsive,
+                        and easy to manage.</p>
+                    <button type="button" class="btn about-modal-btn" data-toggle="modal" data-target="#aboutModal">
+                        Learn More...
+                    </button>
+
+                    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="aboutModalLabel">About M & D WebStudios</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>M & D WebStudios is a full-service digital agency specializing in web design, development, and digital marketing. We help businesses establish a strong online presence through innovative solutions that are tailored to their unique needs.</p>
+                                    <h5 class="modal-title my-3" id="aboutModalLabel"><strong>Founders</strong></h5>
+                                    <p><strong>Dhairy Patel</strong> — Web developer, designer, and co-founder of M & D WebStudios. He leads the creative and technical side of every project, bringing modern design and strong development together.</p>
+                                    <p><strong>Mihir Barot</strong> — Digital marketing expert, SEO optimizer, and co-founder. He focuses on helping businesses grow online through smart strategies, search visibility, and audience engagement.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Custom responsive design</li>
+                        <li><i class="fas fa-check-circle"></i> Fast and SEO-friendly websites</li>
+                        <li><i class="fas fa-check-circle"></i> Modern UI with premium visuals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <p class="eyebrow">Services</p>
+                <h2>What we offer</h2>
+                <p>We deliver full-stack digital solutions with a focus on users and performance.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h4>UI/UX Design</h4>
+                        <p>Beautiful interfaces designed around your audience and goals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-code"></i></div>
+                        <h4>Web Development</h4>
+                        <p>High-quality websites built with modern frameworks and clean code.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h4>Digital Marketing</h4>
+                        <p>We promote your online presence to reach more people.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                        <h4>S.E.O. Automation</h4>
+                        <p>We automate your SEO efforts to improve search engine rankings and drive more organic traffic.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-square-poll-horizontal"></i></div>
+                        <h4>Content Management</h4>
+                        <p>Effortless content updates and management for your website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <p class="eyebrow">Portfolio</p>
+                <h2>Featured projects</h2>
+                <p>Some of our recent work for innovative brands and startups.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card portfolio-card h-100">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+                            class="card-img-top" alt="Creative dashboard">
+                        <div class="card-body">
+                            <h5 class="card-title">Brand Promotion</h5>
+                            <p class="card-text">A sleek marketing site with strong conversion-focused sections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card portfolio-card h-100">
+                        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"
+                            class="card-img-top" alt="Studio workspace">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Store</h5>
+                            <p class="card-text">A modern online store built for speed, trust, and mobile shopping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="contact-card">
+                        <p class="eyebrow">Contact</p>
+                        <h2>Let’s build something amazing.</h2>
+                        <p>Tell us about your project and we’ll help you create a web presence your audience will
+                            remember.</p>
+
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Your Phone" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                        alt="Contact us" class="contact-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <p class="mb-0">&copy; <span id="year"></span> M & D WebStudios. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
